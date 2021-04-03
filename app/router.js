@@ -14,6 +14,8 @@ router.post('/signup', authController.signup);
 router.get('/signin', mainController.signinPage);
 router.post('/signin', authController.signin);
 
+//router.get('/pokemon/:id', mainController.pokemon);
+
 
 
 module.exports = router;

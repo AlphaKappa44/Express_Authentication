@@ -1,9 +1,11 @@
 <%- include('partials/header') %>
 
-<p>Hello <%= user.pseudo %> </p>
-
-<a href="/pokedex">Tous mes pokemons</a>
-<a href="/mylists">Voir toutes mes team</a>
+<div class="form">
+    <p>Hello <%= user.pseudo %>: </p><br>
+    
+    <a href="/pokedex">Tous mes pokemons</a><br>
+    <a href="/mylists">Voir toutes mes team</a>
+</div>
 
 ​
 <%- include('partials/footer') %>

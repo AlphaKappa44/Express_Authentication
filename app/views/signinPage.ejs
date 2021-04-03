@@ -1,9 +1,15 @@
-<form action="/signin" method="POST">
-    <label for="pseudo">Votre pseudo : </label>
-    <input type="pseudo" name="pseudo">
-   
-    <label for="password">Votre password : </label>
-    <input type="password" name="password">
-​
-    <button type="submit">S'inscrire</button>
-</form>
+<%- include('partials/header') %>
+
+<div class="form">
+    <form action="/signin" method="POST">
+        <label for="pseudo">Votre pseudo : </label>
+        <input type="pseudo" name="pseudo">
+       
+        <label for="password">Votre password : </label>
+        <input type="password" name="password">
+    ​
+        <button type="submit">S'inscrire</button>
+    </form>
+</div>
+
+<%- include('partials/footer') %>

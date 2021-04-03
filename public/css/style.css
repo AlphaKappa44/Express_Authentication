@@ -1,0 +1,154 @@
+
+body {
+  background-color: #c14040;
+  font-family: 'Bree Serif', serif;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  box-sizing: content-box;
+  width: 90%;
+}
+
+.header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 90%;
+    height: 60px;
+    z-index: 1;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 15px;
+
+  }
+
+  .form {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    justify-content: space-evenly;
+  }
+
+.cardTitle{
+  margin: 20px;
+  padding: 20px;
+  color: white;
+
+}
+
+  .header a {
+    color: #c14040;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  .header .sitename {
+    font-size: 1.5em;
+  }
+  
+  .header nav {
+    align-self: center;
+  }
+  
+  .main {
+    margin-top: 55px;
+  }
+  
+  
+  .main h1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    font-size: 2em;
+    font-weight: bold;
+    margin-left: 15px;
+  }
+  
+  .main h3 {
+    font-size: 1.3em;
+    font-weight: bold;
+  }
+
+  .cardsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    justify-content: space-evenly;
+  }
+
+  .cardsContainerDetail {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    justify-content: center;
+  }
+  
+  .cardsContainer .card {
+    flex-basis: 200px;
+    position: relative;
+    text-align: center;
+  }
+
+
+  .card img {
+    min-width: 120px;
+    background-color: #982c2c;
+    margin: 10px;
+    padding: 30px;
+    border-radius: 15px;
+    max-width:  300px;
+  }
+  
+  .card .cardNom {
+    position: absolute;
+    bottom:20px;
+    left: 0;
+    right: 0;
+    color: rgb(255, 255, 255);
+    margin: 0;
+  }
+  
+  .card .link--addCard {
+    position: absolute;
+    top: 6%;
+    right: 24%;
+    color: red;
+    font-weight: 900;
+    text-decoration: none;
+  }
+  
+  .footer {
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  
+  /* 
+
+(1, 'Acier', 'aaaabb'),
+(2, 'Combat', 'bb5544'),
+(3, 'Dragon', '7766ee'),
+(4, 'Eau', '3399ff'),
+(5, 'Électrik', 'ffbb33'),
+(6, 'Feu', 'ff4422'),
+(7, 'Glace', '77ddff'),
+(8, 'Insecte', 'aabb22'),
+(9, 'Normal', 'bbaabb'),
+(10, 'Plante', '77cc55'),
+(11, 'Poison', 'aa5599'),
+(12, 'Psy', 'ff5599'),
+(13, 'Roche', 'bbaa66'),
+(14, 'Sol', 'ddbb55'),
+(15, 'Spectre', '6666bb'),
+(16, 'Ténèbres', '665544'),
+(17, 'Vol', '6699ff'); 
+
+*/
